@@ -44,7 +44,7 @@ Workflow workflow =
 AIAgent workflowAgent = await workflow.AsAgentAsync();
 
 AgentRunResponse workflowResponse =
-    await workflowAgent.RunAsync("Write a short story about a haunted house.");
+    await workflowAgent.RunAsync("Write a short story about the tortoise and the hare.");
 
 Console.WriteLine(workflowResponse.Text);
 
